@@ -1,11 +1,10 @@
 import express from 'express'
 import dotenv from "dotenv"
-
+import cors from "cors"
 
 
 const port = process.env.PORT || 3000;
 
-const cors = require("cors");
 app.use(cors());
 
 const app = express()
